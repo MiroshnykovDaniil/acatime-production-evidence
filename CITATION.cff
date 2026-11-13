@@ -9,6 +9,9 @@ type: dataset
 version: 0.1.0
 date-released: 2026-11-13
 license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24199144
 repository-code: "https://github.com/MiroshnykovDaniil/acatime-production-evidence"
 url: "https://github.com/MiroshnykovDaniil/acatime-production-evidence"
 keywords:

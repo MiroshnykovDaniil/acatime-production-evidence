@@ -20,7 +20,7 @@
     "production validation",
     "reproducibility"
   ],
-  "notes": "Aggregate-only v0.1: 17 validation runs. Raw faculty data and the separate representative API run are not included.",
+  "notes": "Aggregate-only v0.1: 17 validation runs, sanitized logs. Raw faculty data and the separate representative API run are not included.",
   "related_identifiers": [
     {
       "identifier": "https://github.com/MiroshnykovDaniil/acatime-production-evidence",

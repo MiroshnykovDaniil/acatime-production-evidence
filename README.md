@@ -5,6 +5,9 @@ the TAAPSD 2026 paper:
 
 > **ACATIME HYBRID GENETIC ALGORITHM FOR UNIVERSITY COURSE TIMETABLING**
 
+**Archived version:** `v0.1.0` — DOI [10.5281/zenodo.24199144](https://doi.org/10.5281/zenodo.24199144)  
+**Concept DOI:** [10.5281/zenodo.24199143](https://doi.org/10.5281/zenodo.24199143)
+
 **Status:** v0.1, aggregate-only. The raw faculty data and raw schedules are not
 included because they contain institutional and personal information.
 
