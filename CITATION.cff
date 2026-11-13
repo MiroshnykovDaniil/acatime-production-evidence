@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this evidence package, please cite it using the metadata below."
 title: "AcaTime production validation evidence"
 abstract: >-
-  Aggregate, privacy-preserving evidence for 17 faculty-scale AcaTime GA
-  validation runs: scores, improvement percentages, durations and checksums.
-  Raw institutional data and schedules are not included.
+  Aggregate, privacy-preserving evidence and sanitized logs for 17 faculty-scale
+  AcaTime GA validation runs: scores, improvement percentages, durations and
+  checksums. Raw institutional data and schedules are not included.
 type: dataset
 version: 0.1.0
 date-released: 2026-11-13

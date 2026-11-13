@@ -12,7 +12,8 @@ benchmark-results/20260902-010032/
 benchmark-results/20260902-010500/
 ```
 
-Only `summary.csv` files were copied. Raw run logs, schedules, and production
+Only `summary.csv` files were copied into `summaries/`. The 17 run logs were
+sanitized and gzip-compressed into `logs/`. Raw run logs, schedules, and production
 data are not included.
 
 ## Checksums

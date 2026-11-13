@@ -1,0 +1,104 @@
+[
+  {
+    "source": "20260902-012136/run-1.log",
+    "output": "logs/20260902-012136/run-1.log.gz",
+    "source_sha256": "faead5fd74bfcf1e78d08be85f48af37cdf2749d2f54788ef741994fd9576c6d",
+    "output_sha256": "9019808d0f8d4d2a5fc1d8f0462aa4f96295f8603a35319807057cbc3438d5c6"
+  },
+  {
+    "source": "20260902-012136/run-2.log",
+    "output": "logs/20260902-012136/run-2.log.gz",
+    "source_sha256": "02f96a18788af6e6366c1d5a0c29655565c0309f75467be1cfcf240e76f5d2a3",
+    "output_sha256": "7b875165ca9b222347e9806e861d1d5aa7f8e04722b8881cf9d9f3a5d800ee35"
+  },
+  {
+    "source": "20260902-012136/run-3.log",
+    "output": "logs/20260902-012136/run-3.log.gz",
+    "source_sha256": "04c96ddc6a99bec34805a11b3b1c02230bab8edf4a4094c8ac5e949319166150",
+    "output_sha256": "6ac33d473ba13720385860d86a7d2012470f91d3fdb36d33fc69f535997c1271"
+  },
+  {
+    "source": "20260902-012136/run-4.log",
+    "output": "logs/20260902-012136/run-4.log.gz",
+    "source_sha256": "82f67842788eaebeeec067301540eef357c8f1117ae048f87518ba003764e3de",
+    "output_sha256": "47982751677f371ba1b8c20016e1f9dacf38dc761338c500913fd9495e6421c3"
+  },
+  {
+    "source": "20260902-012136/run-5.log",
+    "output": "logs/20260902-012136/run-5.log.gz",
+    "source_sha256": "7620db18f7907b9e83530afbd89bdfc83ed90f26c955b305be14f0ba5059ccd9",
+    "output_sha256": "11892e979dc58b447ee015ded2d728c0ccb65add9ba71cd263ec887407a549a3"
+  },
+  {
+    "source": "20260902-013359/run-1.log",
+    "output": "logs/20260902-013359/run-1.log.gz",
+    "source_sha256": "e184c0542561afe5e15d2e2f8edf2a62cbed9a0a1d344b8b241385b27b9900d6",
+    "output_sha256": "9d1ee57bd89f987cb541e3995c98da5eb21a4fd3b9f914c50b7c68400b55e659"
+  },
+  {
+    "source": "20260902-013359/run-2.log",
+    "output": "logs/20260902-013359/run-2.log.gz",
+    "source_sha256": "ec5646abb5e1e1e20425db6657e21df95ead52471d7ff497ede7927318334818",
+    "output_sha256": "099701557ffc518635bb9f42058034ea3e9c498407c40c966a62200de826f1cb"
+  },
+  {
+    "source": "20260902-013359/run-3.log",
+    "output": "logs/20260902-013359/run-3.log.gz",
+    "source_sha256": "60d0950a6bf04968d9bd578cde68d0c1432920808b6f245c3100330050005178",
+    "output_sha256": "c2eeedd1d5b863aa5fe05b12a147125127d962db827908ca0b1c7d16575562b1"
+  },
+  {
+    "source": "20260902-013359/run-4.log",
+    "output": "logs/20260902-013359/run-4.log.gz",
+    "source_sha256": "7ed2e025b57f9dbe6ee243a89828401a4e208fc1da088addef99da490ebcdfb4",
+    "output_sha256": "7e29c68fd090ee61451c6f040e6cc956bdf2cba8f575316a6c90143e10b95cc3"
+  },
+  {
+    "source": "20260902-013359/run-5.log",
+    "output": "logs/20260902-013359/run-5.log.gz",
+    "source_sha256": "65e12171d453ae1419c9fc83109c2e1ce3d3aaa49801b578563c155eb7a0cd4b",
+    "output_sha256": "befc666c82977b92b9f6e03a13de107bcf1366edbcd32e396c35005c7d0dea76"
+  },
+  {
+    "source": "20260902-014708/run-1.log",
+    "output": "logs/20260902-014708/run-1.log.gz",
+    "source_sha256": "7a80590288b41e3fe5dddb226c3b2678a01a95b66c5b52b74e08eaa5432d9ec1",
+    "output_sha256": "247a607d082ac6d4bd16efdc92c73c45fe187202f83e1a6794109163d76d9bb5"
+  },
+  {
+    "source": "20260902-014708/run-2.log",
+    "output": "logs/20260902-014708/run-2.log.gz",
+    "source_sha256": "8cf2dff8dd7033620c7f877dba66d7ecb4aba807ad246d6d28747c436249efb1",
+    "output_sha256": "0ba0b4e5971c96dc1c019e6f722d699fa446022e8a2d508fb66cdc5de5e79151"
+  },
+  {
+    "source": "20260902-014708/run-3.log",
+    "output": "logs/20260902-014708/run-3.log.gz",
+    "source_sha256": "67ca87bc18546ab83f5c2b1f139de67e3860bcead60c0e454b1814587f2f8da2",
+    "output_sha256": "8b7d0cd898941160447dff989fd35005f58aabdc1268468c6bbe5d8781efc8c0"
+  },
+  {
+    "source": "20260902-014708/run-4.log",
+    "output": "logs/20260902-014708/run-4.log.gz",
+    "source_sha256": "c10baaa0cd808170064f2deb125f964cd5b34c5cfb9434d963bc80d42077b700",
+    "output_sha256": "2ceb875451086ca1d42e5f3e27af3e8b836c1ba9c09256b09bb1737835b33955"
+  },
+  {
+    "source": "20260902-014708/run-5.log",
+    "output": "logs/20260902-014708/run-5.log.gz",
+    "source_sha256": "09b54e6e87dd2dae64144e523d7fd61a7dc2056a857e6a3e0360bcfe608da644",
+    "output_sha256": "79f4e1d2f69bd767e6bbc29c1da334e6f789b3a528325237d737d00b9a7c0616"
+  },
+  {
+    "source": "20260902-010032/run-1.log",
+    "output": "logs/20260902-010032/run-1.log.gz",
+    "source_sha256": "13694cb417cb049ddab30e770961ba8e2c154f50c060dbee26b5b2de88cb2f56",
+    "output_sha256": "9115ed5ec4dd5749955d400c6ac567ca96af0df6dc1fd86840e322bb59b3a74c"
+  },
+  {
+    "source": "20260902-010500/run-1.log",
+    "output": "logs/20260902-010500/run-1.log.gz",
+    "source_sha256": "982d2c11388f185616d49aef3b7ee971a6e0e9c670dad7d6afd88a9a3c056a18",
+    "output_sha256": "1178e0ee632b7a12865bdf8729f08744faa90b760dc1990c5d63b3863e788c33"
+  }
+]

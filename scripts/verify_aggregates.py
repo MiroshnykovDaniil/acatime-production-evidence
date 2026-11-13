@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs.csv"
 MANIFEST = ROOT / "summaries" / "MANIFEST.json"
+LOG_MANIFEST = ROOT / "logs" / "MANIFEST.json"
 
 EXPECTED_ROWS = 17
 EXPECTED_MIN = 22.4114
@@ -49,6 +50,14 @@ def main() -> int:
         assert path.exists(), f"missing summary: {path}"
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         assert digest == entry["sha256"], f"checksum mismatch: {path}"
+
+    log_manifest = json.loads(LOG_MANIFEST.read_text())
+    assert len(log_manifest) == EXPECTED_ROWS, "expected 17 sanitized logs"
+    for entry in log_manifest:
+        path = ROOT / entry["output"]
+        assert path.exists(), f"missing sanitized log: {path}"
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        assert digest == entry["output_sha256"], f"log checksum mismatch: {path}"
 
     print(f"rows: {len(rows)}")
     print(f"min: {mn:.4f}")

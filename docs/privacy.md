@@ -12,7 +12,9 @@ Those data are not included in this repository. This release contains only
 aggregate run results: scores, improvement percentages, durations and exit codes.
 
 No student names, teacher names, group names, course names or schedule cells are
-published.
+published. The published logs are sanitized: server addresses, paths and
+institution-specific rule names are removed or replaced; see
+`docs/log-sanitization.md`.
 
 ## What the aggregate data can and cannot prove
 

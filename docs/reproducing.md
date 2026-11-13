@@ -14,5 +14,11 @@ median: 43.2971
 all checks passed
 ```
 
+To inspect a log:
+
+```bash
+gzip -dc logs/20260902-012136/run-1.log.gz | less
+```
+
 This verifies the published arithmetic and checksums. It does not rerun the
 production scheduler, because the production input data is private.

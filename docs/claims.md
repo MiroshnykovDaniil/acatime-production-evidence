@@ -11,7 +11,8 @@ Evidence:
 - `runs.csv`: 17 rows from the 2026-09-02 validation session;
 - `summaries/*.csv`: the original per-run summary files;
 - `scripts/verify_aggregates.py`: recomputes the range, median and per-run
-  percentages.
+  percentages;
+- `logs/`: sanitized, gzip-compressed logs for all 17 runs.
 
 Measured values:
 

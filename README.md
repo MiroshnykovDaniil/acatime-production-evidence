@@ -19,7 +19,8 @@ This release contains the **17 validation runs** from 2026-09-02:
 - mean improvement: **47.51%**.
 
 Every run improved the Default schedule. The per-run source summaries are in
-`summaries/`; the consolidated table is `runs.csv`.
+`summaries/`; the consolidated table is `runs.csv`. Sanitized, gzip-compressed
+logs for all 17 runs are in `logs/`.
 
 ## What this release does not cover
 
@@ -46,12 +47,14 @@ docs/claims.md            claim-to-evidence map
 docs/privacy.md           what is withheld and why
 docs/provenance.md        source and checksum details
 scripts/verify_aggregates.py
+logs/                     sanitized run logs (gzip)
 ```
 
 ## Verify
 
 ```bash
 python3 scripts/verify_aggregates.py
+logs/                     sanitized run logs (gzip)
 ```
 
 It checks:
@@ -59,7 +62,8 @@ It checks:
 - exactly 17 rows;
 - every `percent` equals `delta / default_score * 100`;
 - the reported 22–81% range and median;
-- SHA-256 checksums of the copied summary files.
+- SHA-256 checksums of the copied summary files;
+- the sanitized-log manifest and hashes.
 
 ## Code
 
@@ -71,7 +75,7 @@ The production AcaTime backend and the faculty dataset are not public.
 
 ## License
 
-- Aggregate data and documentation: **CC BY 4.0**.
+- Aggregate data, logs and documentation: **CC BY 4.0**.
 - Verification scripts: **Apache-2.0**.
 
 See `LICENSE` and `LICENSES.md`.
