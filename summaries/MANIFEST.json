@@ -1,0 +1,27 @@
+[
+  {
+    "source_dir": "20260902-012136",
+    "file": "summaries/20260902-012136.csv",
+    "sha256": "04b660229c785dba981f25881f487020117ae9d8e20716e864a9e41c56914d38"
+  },
+  {
+    "source_dir": "20260902-013359",
+    "file": "summaries/20260902-013359.csv",
+    "sha256": "bab77c567bdd0a543f64f477daf72aa1abbb38f805210c509856c9607e4b38e9"
+  },
+  {
+    "source_dir": "20260902-014708",
+    "file": "summaries/20260902-014708.csv",
+    "sha256": "8553150440a1bed7637f50c5a9266834f6d03d0ac872fd62cc3611a00e47cfd5"
+  },
+  {
+    "source_dir": "20260902-010032",
+    "file": "summaries/20260902-010032.csv",
+    "sha256": "fc8be045f24e45459c1f42c11e2e9e0dd908f5d4a4287ef7288987d5b6d666bc"
+  },
+  {
+    "source_dir": "20260902-010500",
+    "file": "summaries/20260902-010500.csv",
+    "sha256": "0df2c945be422c32be160c84734d1d98f55ac1e900790e7c612c16bb21eaeb5c"
+  }
+]

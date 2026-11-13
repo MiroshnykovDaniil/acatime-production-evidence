@@ -1,0 +1,31 @@
+{
+  "title": "AcaTime production validation evidence",
+  "description": "Aggregate, privacy-preserving evidence for 17 faculty-scale AcaTime GA validation runs: scores, improvement percentages, durations and checksums. Raw institutional data and schedules are not included. The representative 199,180 -> 256,450 API run is not part of this release.",
+  "creators": [
+    {
+      "name": "Miroshnykov, Daniil",
+      "affiliation": "Taras Shevchenko National University of Kyiv, Faculty of Computer Science and Cybernetics"
+    }
+  ],
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "version": "0.1.0",
+  "publication_date": "2026-11-13",
+  "language": "eng",
+  "keywords": [
+    "university course timetabling",
+    "genetic algorithm",
+    "AcaTime",
+    "production validation",
+    "reproducibility"
+  ],
+  "notes": "Aggregate-only v0.1: 17 validation runs. Raw faculty data and the separate representative API run are not included.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MiroshnykovDaniil/acatime-production-evidence",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
